@@ -45,11 +45,11 @@ class MainActivity : AppCompatActivity() {
                         " | " + data.get(i).description+" | " + data.get(i).quantity + "\n")
             }
 
-            binding.etvBarcode.text.clear()
-            binding.etvBrand.text.clear()
-            binding.etvType.text.clear()
-            binding.etvDescription.text.clear()
-            binding.etvQuantity.text.clear()
+            binding.etvBarcode.setText("")
+            binding.etvBrand.setText("")
+            binding.etvType.setText("")
+            binding.etvDescription.setText("")
+            binding.etvQuantity.setText("")
         }
 
         // Update Records

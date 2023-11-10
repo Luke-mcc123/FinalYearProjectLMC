@@ -134,10 +134,11 @@
         android:fontFamily="@font/allerta"/>
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="388dp"
         android:layout_height="288dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="452dp"
+        android:layout_marginTop="440dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent"
